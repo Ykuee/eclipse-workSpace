@@ -1,2 +1,5 @@
 1497346100008	Move 'application.properties' to 'svn_temp'
 1497346120844	Move 'application.properties' to 'resources'
+1497581929148	Move folder
+1497582073631	Move 'resources' to 'src'
+1497582677578	Move 'resources' to 'spring-mvc-mini'

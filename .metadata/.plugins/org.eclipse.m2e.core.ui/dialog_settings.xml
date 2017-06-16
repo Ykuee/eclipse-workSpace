@@ -33,8 +33,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Ykue\Desktop\SpringBlog-master"/>
+			<item value="E:\Python_workspace\spring-mvc-REST"/>
 			<item value="C:\Users\Ykue\Desktop\spring-mvc-mini-master"/>
+			<item value="C:\Users\Ykue\Desktop\SpringBlog-master"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -63,6 +64,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Ykue\Desktop\spring-mvc-mini-master"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -75,14 +77,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.ykue.kd.dd"/>
 			<item value="org.ykue.ykue"/>
 			<item value="ykue.yku1"/>
 		</list>
 		<list key="groupId">
+			<item value="org.ykue.kd"/>
 			<item value="org.ykue"/>
 			<item value="ykue"/>
 		</list>
 		<list key="artifactId">
+			<item value="dd"/>
 			<item value="ykue"/>
 			<item value="yku1"/>
 		</list>

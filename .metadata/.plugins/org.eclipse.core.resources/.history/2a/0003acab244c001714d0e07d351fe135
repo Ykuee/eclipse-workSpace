@@ -1,9 +1,0 @@
-package com.syd.springmvc.handlers;
-
-public class User {
-	private String username;
-	private String password;
-	private String email;
-	
-	private Address address;
-}

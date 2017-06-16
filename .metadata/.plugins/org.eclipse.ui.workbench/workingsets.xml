@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497594166595_2" label="spring-mvc-REST" name="spring-mvc-REST">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-mvc-REST" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1488246243194_0" label="Window Working Set" name="Aggregate for window 1488246243193"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495678185769_1" label="Window Working Set" name="Aggregate for window 1495678185769"/>
 </workingSetManager>
