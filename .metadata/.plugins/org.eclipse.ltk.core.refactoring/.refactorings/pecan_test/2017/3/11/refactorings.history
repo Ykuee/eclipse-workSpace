@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pecan_test/pecan_test/templates/html_template.mako.html&apos; to &apos;testt.html&apos;" description="Rename resource &apos;html_template.mako.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pecan_test/templates/html_template.mako.html" name="testt.html" stamp="1489475501454" updateReferences="true"/>
+</session>

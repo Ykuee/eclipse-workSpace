@@ -1,0 +1,6 @@
+127.0.0.1 - - [12/Jun/2017:17:24:10 +0800] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:17:24:11 +0800] "GET /springmvc-1/index.jsp HTTP/1.1" 200 1817
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:17:24:12 +0800] "GET /springmvc-1/springmvc/testModelAttribute?id=5&username=abc&email=abc HTTP/1.1" 500 9409
+127.0.0.1 - - [12/Jun/2017:17:25:46 +0800] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:17:25:46 +0800] "GET /springmvc-1/index.jsp HTTP/1.1" 200 1817
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:17:25:49 +0800] "GET /springmvc-1/springmvc/testSessionAttributes HTTP/1.1" 500 9409

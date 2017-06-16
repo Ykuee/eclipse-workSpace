@@ -1,0 +1,8 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+#master_valve.py  
+from paste  import httpserver
+from paste.deploy import loadapp  
+
+if __name__ == '__main__':  
+    httpserver.serve(loadapp('config:config.ini', relative_to = '.'), host = '127.0.0.1', port=8000)  

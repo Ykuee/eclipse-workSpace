@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="address" class="com.syd.spring.beans.autowrie.Address"
+	p:city="BeiJing" p:street="DeShengMen"></bean>
+	
+	<bean id="car" scope="prototype" class="com.syd.spring.beans.autowrie.Car"
+	p:brand="#{'sdfasf'}">
+	<property name="price" value="#{T(java.lang.Math).PI * 800}"></property>
+	</bean>
+	
+	<bean id="person" class="com.syd.spring.beans.autowrie.Person"
+	p:name="Gengyue" p:age="24" >
+	<property name="car" value="#{car}"></property>
+	<property name="address" value="#{address}"></property>
+	<property name="info" value="#{car.price >300 ? 'sss':'ddd'}"></property>
+	</bean>
+</beans>

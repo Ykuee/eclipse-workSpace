@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 1" tests="0" total_time="Finished in: 25.94 secs."/>
+<test location="F:/Python_workspace/Dj/src/Dj/urls.py" status="error" test="urls" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Administrator\.p2\pool\plugins\org.python.pydev_5.5.0.201701191708\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "F:\Python_workspace\Dj\src\Dj\urls.py", line 21, in <module>
+    url(r'^admin/', admin.site.urls),
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 267, in urls
+    return self.get_urls(), 'admin', self.name
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 225, in get_urls
+    from django.contrib.contenttypes import views as contenttype_views
+  File "C:\Python27\lib\site-packages\django\contrib\contenttypes\views.py", line 5, in <module>
+    from django.contrib.contenttypes.models import ContentType
+  File "C:\Python27\lib\site-packages\django\contrib\contenttypes\models.py", line 138, in <module>
+    class ContentType(models.Model):
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 105, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "C:\Python27\lib\site-packages\django\apps\registry.py", line 237, in get_containing_app_config
+    self.check_apps_ready()
+  File "C:\Python27\lib\site-packages\django\apps\registry.py", line 124, in check_apps_ready
+    raise AppRegistryNotReady("Apps aren't loaded yet.")
+AppRegistryNotReady: Apps aren't loaded yet.
+ERROR: Module: urls could not be imported (file: F:/Python_workspace/Dj/src/Dj/urls.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Dj Dj (1)"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

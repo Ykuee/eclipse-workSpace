@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:SQLTables="http:///org/eclipse/datatools/modelbase/sql/tables.ecore">
+  <SQLSchema:Database name="shopping" vendor="MySql" version="5.1" schemas="/1" authorizationIds="/8 /9">
+    <eAnnotations source="ConnectionURI">
+      <details key="ConnectionKey" value="DB MySql Shopping"/>
+    </eAnnotations>
+  </SQLSchema:Database>
+  <SQLSchema:Schema name="shopping" tables="/2 /3 /4 /5 /6 /7" database="/0"/>
+  <SQLTables:PersistentTable name="category" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="pid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="name" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="descr" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="cno" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="grade" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/2/id"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="product" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="name" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="descr" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="normalprice" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+    <columns name="memberprice" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+    <columns name="pdate" description="">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" name="DATETIME" primitiveType="TIMESTAMP"/>
+    </columns>
+    <columns name="categoryid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/3/id"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="salesitem" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="productid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="unitprice" description="">
+      <containedType xsi:type="SQLDataTypes:ApproximateNumericDataType" name="DOUBLE" primitiveType="DOUBLE_PRECISION"/>
+    </columns>
+    <columns name="pcount" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="orderid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/4/id"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="salesorder" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="userid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="addr" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="odate" description="">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" name="DATETIME" primitiveType="TIMESTAMP"/>
+    </columns>
+    <columns name="status" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/5/id"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="suser" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="username" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="40"/>
+    </columns>
+    <columns name="password" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="16"/>
+    </columns>
+    <columns name="phone" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="40"/>
+    </columns>
+    <columns name="addr" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="rdate" description="">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" name="DATETIME" primitiveType="TIMESTAMP"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/6/id"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable name="user" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="username" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="40"/>
+    </columns>
+    <columns name="password" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="16"/>
+    </columns>
+    <columns name="phone" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="40"/>
+    </columns>
+    <columns name="addr" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="rdate" description="">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" name="DATETIME" primitiveType="TIMESTAMP"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/7/id"/>
+  </SQLTables:PersistentTable>
+  <SQLAccessControl:User name="root [localhost]" label="root [localhost]" Database="/0"/>
+  <SQLAccessControl:User name="mysql.sys [localhost]" label="mysql.sys [localhost]" Database="/0"/>
+</xmi:XMI>

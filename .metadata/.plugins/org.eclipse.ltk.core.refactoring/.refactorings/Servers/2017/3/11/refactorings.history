@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;mysql-connector-java-5.1.41-bin.jar&apos; to &apos;Tomcat v8.5 Server at localhost-config&apos;" description="Move &apos;mysql-connector-java-5.1.41-bin.jar&apos; to &apos;Tomcat v8.5 Server at localhost-config&apos;" destination="Tomcat v8.5 Server at localhost-config" element1="Tomcat v8.5 Server at localhost-config/lib/mysql-connector-java-5.1.41-bin.jar" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1489458889399" updateReferences="true"/>
+</session>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--配置beans 通过反射的机制创建Helloworld这个bean 所以要求bean中
+	必须要有无参数构造器-->
+	<bean id="HelloWorld" class="com.syd.spring.beans.HelloWorld">
+		<property name="namee" value="gengyue"></property>
+	</bean>
+	<!-- 
+	<bean id="" class="">
+		<property name="" value=""></property>
+	</bean>
+	-->
+	<bean id="card1" class="com.syd.spring.beans.Card">
+		<constructor-arg value="10" type="int"></constructor-arg>
+		<constructor-arg value="geng"></constructor-arg>
+		<constructor-arg value="sss"></constructor-arg>
+	</bean>
+		<bean id="card2" class="com.syd.spring.beans.Card">
+		<constructor-arg value="10" type="double"></constructor-arg>
+		<constructor-arg>
+		<!-- 特殊字符的可以用以下方式 -->
+			<value><![CDATA[<geng>#^@,,,]]></value>
+		</constructor-arg>
+		<constructor-arg value="sss"></constructor-arg>
+	</bean>
+	<bean id="person" class="com.syd.spring.beans.Person">
+		<property name="name" value="geng"></property>	
+		<property name="age" value="24"></property>
+		<!-- ref属性建立bean之间的关系 -->
+		<property name="card" ref="card1">
+			<!-- <ref bean="card2"/> -->
+		</property>
+		<!-- 
+		<property name="card">
+			<map>
+				<entry key="" value-ref=""></entry>
+			</map>
+		</property>
+		
+		使用util来将list共享出来，能被多个bean访问。
+		 <util:list></util:list>
+		 
+		 通过p命名空间 简化传统配置方式。
+		  -->
+	</bean>
+</beans>

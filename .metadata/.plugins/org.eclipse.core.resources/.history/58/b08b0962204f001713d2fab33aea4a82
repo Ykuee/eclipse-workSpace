@@ -1,0 +1,5 @@
+package com.syd.springmvc.views;
+
+public class HelloView implements View{
+
+}

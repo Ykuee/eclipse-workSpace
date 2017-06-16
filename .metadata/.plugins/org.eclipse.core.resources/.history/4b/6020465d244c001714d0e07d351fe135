@@ -1,0 +1,5 @@
+package com.syd.springmvc.handlers;
+
+public class User {
+
+}

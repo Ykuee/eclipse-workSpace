@@ -1,0 +1,59 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\Python_workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Python_test\com.python.pydev.analysis\v2_indexcache
+Test.spider|1488355313172154000|E:\Python_workspace\Python_test\src\Test\spider.py
+Test.__init__|1488268618832148000|E:\Python_workspace\Python_test\src\Test\__init__.py
+www.templates.__init__|1488246490814331000|E:\Python_workspace\Python_test\src\www\templates\__init__.py
+conf.__init__|1488246531080491000|E:\Python_workspace\Python_test\src\conf\__init__.py
+www.static.__init__|1488246468141550000|E:\Python_workspace\Python_test\src\www\static\__init__.py
+Test.serverTest|1489115914429838000|E:\Python_workspace\Python_test\src\Test\serverTest.py
+backup.__init__|1488246424671060000|E:\Python_workspace\Python_test\src\backup\__init__.py
+Test.wsgi|1489655509832940000|E:\Python_workspace\Python_test\src\Test\wsgi.py
+Test.db|1488268331910216000|E:\Python_workspace\Python_test\src\Test\db.py
+LICENSE.__init__|1488246515515963000|E:\Python_workspace\Python_test\src\LICENSE\__init__.py
+www.__init__|1488246452840826000|E:\Python_workspace\Python_test\src\www\__init__.py
+Test.Pytest|1490238034582997000|E:\Python_workspace\Python_test\src\Test\Pytest.py
+Test.tool|1488347825062464000|E:\Python_workspace\Python_test\src\Test\tool.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+3=Test.spider
+9=_Engine.__init__
+8=_DbCtx
+11=_DbCtx.init
+4=Test.serverTest
+7=_Engine
+2=Test.wsgi
+1=Test.db
+6=APPTest
+10=_DbCtx.__init__
+12=_DbCtx.cleanup
+5=Test.tool
+13=Tool
+-- END DICTIONARY
+-- START TREE 1
+8
+_db|2|_DbCtx!9@_db_ctx!11@
+_en|1|_Engine!9@
+app|2|application!19@APPTest!17@
+eng|1|engine!11@
+get|2|getImg!26@getHtml!26@
+htm|1|html!27@
+htt|2|httpd!35@httpd!19@
+too|1|Tool!41@
+-- END TREE
+-- START TREE 2
+12
+__c|1|__call__!6&18@
+__i|2|__init__!7&10@__init__!8&10@
+_co|1|_connect!9&11@
+cle|1|cleanup!8&10@
+con|4|connect!7&10@connection!10&11@connection!11&11@connection!12&11@
+cur|1|cursor!8&10@
+ini|1|init!8&10@
+is_|1|is_init!8&10@
+rem|4|removeImg!13&43@removeAddr!13&43@removeNoneLine!13&43@removeExtraTag!13&43@
+rep|4|replaceLine!13&43@replaceTD!13&43@replaceBR!13&43@replace!13&42@
+tes|1|test!6&18@
+tra|2|transactions!10&11@transactions!11&11@
+-- END TREE

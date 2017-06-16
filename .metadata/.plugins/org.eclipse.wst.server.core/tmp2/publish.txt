@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Tue Jun 13 17:25:05 CST 2017
+org.eclipse.jst.jee.server\:/binary\:E\:\\01\ Java\u6846\u67B6\u5B66\u4E60\\spring-framework-4.3.7.RELEASE\\libs\\spring-web-4.3.7.RELEASE.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\01\ Java\u6846\u67B6\u5B66\u4E60\\spring-framework-4.3.7.RELEASE\\libs\\spring-web-4.3.7.RELEASE-sources.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\server\\MavenRepository\\maven_jar\\org\\springframework\\spring-web\\4.1.6.RELEASE\\spring-web-4.1.6.RELEASE.jar=WEB-INF/lib/spring-web-4.1.6.RELEASE.jar

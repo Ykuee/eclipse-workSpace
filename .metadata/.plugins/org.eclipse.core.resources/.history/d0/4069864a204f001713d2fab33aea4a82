@@ -1,0 +1,5 @@
+package com.syd.springmvc.views.copy;
+
+public class HelloView {
+
+}

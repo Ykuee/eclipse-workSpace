@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/pyc.iml" filepath="$PROJECT_DIR$/.idea/pyc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pyc_Dj/.idea/pyc_Dj.iml" filepath="$PROJECT_DIR$/../pyc_Dj/.idea/pyc_Dj.iml" />
+    </modules>
+  </component>
+</project>

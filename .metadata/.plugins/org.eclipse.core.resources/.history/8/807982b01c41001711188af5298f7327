@@ -1,0 +1,18 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.syd.model.User;
+import com.syd.service.UserService;
+
+public class UserServiceTest {
+
+	@Test
+	public void testadd() {
+		UserService service = new UserService();
+		User u = new User();
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;pecan_test/paste/PasteDeploy.ini&apos; to &apos;congigure.ini&apos;" description="Rename resource &apos;PasteDeploy.ini&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="paste/PasteDeploy.ini" name="congigure.ini" stamp="1490085843961" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;pecan_test/paste/congigure.ini&apos; to &apos;config.ini&apos;" description="Rename resource &apos;congigure.ini&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="paste/congigure.ini" name="config.ini" stamp="1490088162928" updateReferences="true"/>
+</session>

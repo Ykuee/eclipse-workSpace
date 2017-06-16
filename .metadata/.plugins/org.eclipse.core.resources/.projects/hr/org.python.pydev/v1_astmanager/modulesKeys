@@ -1,0 +1,17 @@
+MODULES_MANAGER_V2
+booktest.__init__|E:\Python_workspace\hr\booktest\__init__.py
+booktest.admin|E:\Python_workspace\hr\booktest\admin.py
+booktest.apps|E:\Python_workspace\hr\booktest\apps.py
+booktest.migrations.0001_initial|E:\Python_workspace\hr\booktest\migrations\0001_initial.py
+booktest.migrations.0002_myname|E:\Python_workspace\hr\booktest\migrations\0002_myname.py
+booktest.migrations.0003_auto_20170309_1027|E:\Python_workspace\hr\booktest\migrations\0003_auto_20170309_1027.py
+booktest.migrations.__init__|E:\Python_workspace\hr\booktest\migrations\__init__.py
+booktest.models|E:\Python_workspace\hr\booktest\models.py
+booktest.tests|E:\Python_workspace\hr\booktest\tests.py
+booktest.urls|E:\Python_workspace\hr\booktest\urls.py
+booktest.views|E:\Python_workspace\hr\booktest\views.py
+hr.__init__|E:\Python_workspace\hr\hr\__init__.py
+hr.settings|E:\Python_workspace\hr\hr\settings.py
+hr.urls|E:\Python_workspace\hr\hr\urls.py
+hr.wsgi|E:\Python_workspace\hr\hr\wsgi.py
+manage|E:\Python_workspace\hr\manage.py
