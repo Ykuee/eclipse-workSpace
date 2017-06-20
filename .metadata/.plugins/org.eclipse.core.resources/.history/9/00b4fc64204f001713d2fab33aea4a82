@@ -1,7 +1,0 @@
-package com.syd.springmvc.views;
-
-import org.springframework.web.servlet.View;
-
-public class HelloView implements View{
-
-}

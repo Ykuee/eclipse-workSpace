@@ -1,5 +1,0 @@
-package com.syd.springmvc.handlers;
-
-public class HelloView {
-
-}

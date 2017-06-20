@@ -3,6 +3,9 @@
 	<section name="LaunchTerminalSettingsDialog">
 		<item value="Local Terminal" key="terminalLabel"/>
 		<section name="SettingsPanelControl">
+			<section name="Git Bash">
+				<item value="UTF-8" key="encoding"/>
+			</section>
 			<section name="Local Terminal">
 				<item value="UTF-8" key="encoding"/>
 			</section>
