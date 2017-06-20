@@ -6993,3 +6993,21 @@ java.lang.RuntimeException: Unable to track file that does not exist: C:\Python2
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-06-20 09:58:30.529
 !MESSAGE No repository found at http://propedit.sourceforge.jp/howto_eclipseplugin_install_en.html.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-06-20 10:36:08.586
+!MESSAGE properties removing for project 'springmvc-1'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-06-20 10:36:33.666
+!MESSAGE properties loading for project 'springmvc-3'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-06-20 10:37:02.994
+!MESSAGE properties removing for project 'springmvc-3'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-06-20 10:37:04.729
+!MESSAGE properties loading for project 'BBS'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-06-20 10:37:09.512
+!MESSAGE properties removing for project 'BBS'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-06-20 10:37:40.010
+!MESSAGE properties loading for project 'springmvc-3'
