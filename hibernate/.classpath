@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Mysql DB conn"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-framework-4.3.7.RELEASE"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate 5.2.10"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-dbcp1.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/01 Java框架学习/JUNIT/hamcrest-core-1.3.rc2.jar"/>
+	<classpathentry kind="lib" path="E:/01 Java框架学习/JUNIT/hamcrest-library-1.3.rc2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
