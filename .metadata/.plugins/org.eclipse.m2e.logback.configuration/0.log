@@ -3460,3 +3460,10 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/spring-3' does
 2017-06-19 09:20:04,880 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-06-19 09:20:04,954 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
 2017-06-19 09:20:04,987 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 10:58:51,139 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @4813711ms
+2017-06-20 10:58:51,260 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-06-20 10:58:51,300 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@521eab0b{/wse,null,AVAILABLE}
+2017-06-20 10:58:51,322 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@23df674{HTTP/1.1,[http/1.1]}{0.0.0.0:4370}
+2017-06-20 10:58:51,323 [main] INFO  org.eclipse.jetty.server.Server - Started @4813897ms
+2017-06-20 11:30:42,293 [Framework stop] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@23df674{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2017-06-20 11:30:42,316 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@521eab0b{/wse,null,UNAVAILABLE}

@@ -9,20 +9,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="testModelAttribute" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="inv"/>
+			<item value="@ManyToOne"/>
+			<item value="userservice"/>
+			<item value="user"/>
 			<item value="lookup"/>
 			<item value="shareable=true"/>
 			<item value="get"/>
 			<item value="properties"/>
-			<item value="root"/>
-			<item value="clear"/>
-			<item value="cle"/>
-			<item value="myF"/>
 		</list>
 		<list key="replacehistory">
 			<item value="testModelAttribute"/>

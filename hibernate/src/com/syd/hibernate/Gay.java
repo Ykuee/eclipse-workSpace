@@ -33,6 +33,14 @@ public class Gay {
 		return id;
 	}
 
+	public Gay(Integer id, String name, LocalDateTime birth, Pussy pussy) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.birth = birth;
+		this.pussy = pussy;
+	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
